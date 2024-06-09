@@ -1,0 +1,31 @@
+.CommitsPerQuaterGraphContainer {
+  background-color: #132240;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.CommitsPerQuaterGraphHeading {
+  color: #f8fafc;
+  background-color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .CommitsPerQuaterGraphHeading {
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+
+.CommitsPerQuaterGraph {
+  font-size: 14px;
+  color: #3b82f6;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .CommitsPerQuaterGraph {
+    font-size: 16px;
+  }
+}

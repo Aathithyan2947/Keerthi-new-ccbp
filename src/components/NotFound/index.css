@@ -1,0 +1,63 @@
+/* NotFoundViewContainer styles */
+.NotFoundViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  min-height: 100vh;
+}
+
+/* NotFoundViewLogo styles */
+.NotFoundViewLogo {
+  width: 296px;
+  height: 166px;
+  margin: 10px;
+
+  @media screen and (min-width: 1024px) {
+    width: 677px;
+    height: 380px;
+  }
+}
+
+/* Heading styles */
+.Heading {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+  }
+}
+
+/* Text styles */
+.Text {
+  color: #94a3b8;
+  font-size: 12px;
+  text-align: center;
+  width: 300px;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    width: 500px;
+  }
+}
+
+/* GoBackButton styles */
+.GoBackButton {
+  background-color: #3b82f6;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}

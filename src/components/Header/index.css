@@ -1,0 +1,48 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  width: 100vw;
+  background-color: #0f172a;
+}
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.title {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-items li {
+  margin-left: 20px;
+}
+.route-link {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: #0f172a;
+  font-weight: bold;
+  text-decoration: none;
+}
+.route-link:hover {
+  color: #d3d3d3;
+}

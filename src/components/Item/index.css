@@ -1,0 +1,15 @@
+.Li {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 15%;
+}
+.Ci {
+  height: 75px;
+  width: 55px;
+  margin-right: 8px;
+}
+.Cn {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}

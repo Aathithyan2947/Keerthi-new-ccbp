@@ -1,0 +1,116 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.main-div {
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.input-container input {
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+.input-container button {
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ccc;
+  background-color: #00bfff;
+  color: #fff;
+  cursor: pointer;
+}
+.input-container button:hover {
+  background-color: #009acd;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: 20px auto;
+}
+.profile-container {
+  background-color: #1a202c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  text-align: left;
+}
+.profile-container h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.profile-container img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.profile-container p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.profile-stats div {
+  text-align: center;
+}
+.profile-stats h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.profile-stats p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.profile-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.profile-icons div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.profile-icons p {
+  margin: 0 5px;
+}
+.error-message {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+.try-again-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.try-again-button:hover {
+  background-color: #009acd;
+}

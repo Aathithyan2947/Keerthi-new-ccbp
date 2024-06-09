@@ -1,0 +1,62 @@
+.s-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #0f172a;
+}
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f5f6f9;
+  margin-bottom: 20px;
+}
+.ListCon {
+  list-style-type: none;
+  padding: 0;
+}
+.repo-item {
+  background-color: #f3eaea;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100vh;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.repo-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2d3748;
+}
+.repo-languages {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.language-tag {
+  background-color: #e2e8f0;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #2d3748;
+}
+.repo-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.repo-stats .stat {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.repo-stats .stat svg {
+  margin-right: 5px;
+}
+.DataNotFoundViewContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
