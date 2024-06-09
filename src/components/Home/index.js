@@ -36,7 +36,6 @@ class Home extends Component {
       if (response.ok) {
         const userProfile = await response.json()
         this.setState({userProfile, error: null, ap: apStatus.success})
-        localStorage.setItem('user', username)
       } else {
         const errorData = await response.json()
         this.setState({

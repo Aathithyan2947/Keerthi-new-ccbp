@@ -6,7 +6,9 @@
 .react-calendar-heatmap .react-calendar-heatmap-small-text {
   font-size: 5px;
 }
-
+.maindiv{
+  background-color: #132240;
+}
 .react-calendar-heatmap rect:hover {
   stroke: #555;
   stroke-width: 1px;

@@ -27,7 +27,6 @@ class RepositoryItemDetail extends Component {
   }
 
   fetchRepoDetails = async username => {
-    // const username = localStorage.getItem('user')
     this.setState({ap: apStatus.loading})
     const accessToken = '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'
     const {match} = this.props

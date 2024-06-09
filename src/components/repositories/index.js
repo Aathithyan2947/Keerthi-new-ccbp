@@ -25,10 +25,6 @@ class Repository extends Component {
     }
   }
 
-  clearLocalStorage = () => {
-    // localStorage.removeItem('user')
-  }
-
   getData = async username => {
     this.setState({ap: apStatus.loading})
     const accessToken = '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'
@@ -52,10 +48,7 @@ class Repository extends Component {
         stars: repo.stargazers_count,
         forks: repo.forks_count,
       }))
-      this.setState(
-        {courseList: formatData, ap: apStatus.success},
-        this.clearLocalStorage,
-      )
+      this.setState({courseList: formatData, ap: apStatus.success})
     } else {
       this.setState({ap: apStatus.fail})
     }
